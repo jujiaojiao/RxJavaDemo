@@ -24,10 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 subscriber.onNext("wang");
                 subscriber.onNext("yi");
                 subscriber.onNext("bo");
-                subscriber.onNext("ni");
-                subscriber.onNext("shi");
-                subscriber.onNext("zhu");
-                subscriber.onNext("ma");
+
                 subscriber.onCompleted();
             }
         }).subscribe(new Subscriber<String>() {
